@@ -1,4 +1,3 @@
-Solution 2:
 function highlightHTMLContent(htmlContent, plainText, plainTextPositions) {
   // Convert plain text positions to HTML positions
   const htmlPositions = plainTextPositions.map(({ start, end }) => {
